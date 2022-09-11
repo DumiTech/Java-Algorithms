@@ -26,7 +26,7 @@ public class TwoSum {
 class TwoSumSolution {
     public int[] twoSum(int[] nums, int target) {
         // Solution 1
-        // Time complexity: O(n^2)
+        // Time complexity: O(n)
         //  Space complexity: O(n)
         int[] result = new int[2];
         Map <Integer, Integer> map = new HashMap<>();
